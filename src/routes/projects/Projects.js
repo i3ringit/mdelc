@@ -41,7 +41,7 @@ class Projects extends React.Component {
             <div className={s.cardContainer}>
 
               <Card
-                cardLink="https://schedule.mdelcristo.info/"
+                cardLink="/projects/vetmed-schedule"
                 cardSrc={vetmedSchedule}
                 cardTitle="VetMed Schedule"
                 cardText="Scheduling system for the College of VetMed @ University of Illinois."
@@ -49,7 +49,7 @@ class Projects extends React.Component {
               />
 
               <Card
-                cardLink="#."
+                cardLink="/projects/vetmed-multisite"
                 cardSrc={vetmedMulti}
                 cardTitle="VetMed multisite"
                 cardText="WordPress multisite containing dozens of websites for VetMed @ Illinois."
@@ -57,7 +57,7 @@ class Projects extends React.Component {
               />
 
               <Card
-                cardLink="#."
+                cardLink="/projects/wordpress"
                 cardSrc={wordpress}
                 cardTitle="WordPress sites"
                 cardText="Several WordPress sites designed and hosted for clients."

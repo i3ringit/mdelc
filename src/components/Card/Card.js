@@ -7,8 +7,7 @@
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Card.css';
-
-/* import Link from '../Link'; */
+import Link from '../Link';
 
 class Card extends React.Component {
   static propTypes = {
@@ -16,28 +15,24 @@ class Card extends React.Component {
     cardSrc: PropTypes.string.isRequired,
     cardTitle: PropTypes.string.isRequired,
     cardText: PropTypes.string.isRequired,
-    cardLinkText: PropTypes.string.isRequired,
   };
 
   render() {
     return (
       <div className={s.card}>
 
-        {/*
         <Link to={this.props.cardLink}>
           <img src={this.props.cardSrc} alt={this.props.cardTitle} />
-        </Link>*/}
+        </Link>
 
-        <a href={this.props.cardLink}>
-          <img src={this.props.cardSrc} alt={this.props.cardTitle} />
-        </a>
         <div className={s.innerCard}>
-          <h2>{this.props.cardTitle}</h2>
-          <p>{this.props.cardText}</p>
-          <a href={this.props.cardLink} className={s.btn}>
-            {this.props.cardLinkText}
-          </a>
+          <h2 className={s.cardTitle}>{this.props.cardTitle}</h2>
+          <p className={s.cardText}>{this.props.cardText}</p>
+          <Link to={this.props.cardLink} className={s.btn}>
+            Learn More
+          </Link>
         </div>
+
       </div>
     );
   }

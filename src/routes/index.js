@@ -19,6 +19,8 @@ export default {
     require('./home').default,
     require('./projects').default,
     require('./schedule').default,
+    require('./multisite').default,
+    require('./wordpress').default,
     require('./contact').default,
     require('./privacy').default,
 
