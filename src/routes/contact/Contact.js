@@ -22,8 +22,8 @@ class Contact extends React.Component {
         <div className={s.container}>
           <h1>Contact Me</h1>
           <p>
-            Email: contact@mdelcristo.info<br />
-            Phone: (217) 862-4207
+            Email: <a href="mailto:contact@mdelcristo.info">contact@mdelcristo.info</a><br />
+            Phone: <a href="tel:217-862-4207">(217) 862-4207</a>
           </p>
         </div>
       </div>

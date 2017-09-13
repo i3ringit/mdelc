@@ -21,6 +21,7 @@ export default {
     require('./schedule').default,
     require('./multisite').default,
     require('./wordpress').default,
+    require('./mySite').default,
     require('./contact').default,
     require('./privacy').default,
 

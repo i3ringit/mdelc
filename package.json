@@ -48,12 +48,13 @@
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.1",
     "autoprefixer": "^6.7.2",
-    "babel-cli": "^6.22.2",
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.2.1",
     "babel-loader": "^6.2.10",
     "babel-plugin-rewire": "^1.0.0",
     "babel-preset-env": "^1.1.8",
+    "babel-preset-flow": "^6.23.0",
     "babel-preset-react": "^6.22.0",
     "babel-preset-react-optimize": "^1.0.1",
     "babel-preset-stage-2": "^6.22.0",
@@ -73,7 +74,9 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
+    "eslint_d": "^4.2.5",
     "file-loader": "^0.10.0",
+    "flow-bin": "^0.44.2",
     "front-matter": "^2.1.2",
     "glob": "^7.1.1",
     "json-loader": "^0.5.4",
@@ -128,7 +131,8 @@
         }
       ],
       "stage-2",
-      "react"
+      "react",
+      "flow"
     ],
     "env": {
       "test": {

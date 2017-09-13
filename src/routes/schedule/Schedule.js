@@ -30,7 +30,8 @@ class Schedule extends React.Component {
                 VetMed Schedule
               </h2>
               <p className={s.textNormal}>
-                Scheduling system for VetMed at the University of Illinois.
+                Scheduling system for the College of Veterinary Medicine at the
+                University of Illinois.
               </p>
             </div>
 

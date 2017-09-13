@@ -29,9 +29,9 @@ class Projects extends React.Component {
         <section className={`${s.largeSection} ${s.bgGray}`} id="php">
           <div className={s.container}>
             <div className={s.section_intro}>
-              <h2 className={s.textLarge}>
+              <h1 className={s.textLarge}>
                 PHP Projects
-              </h2>
+              </h1>
               <p className={s.textNormal}>
                 These projects use PHP in the back-end and a number of
                 javascript libraries in the front end.
@@ -45,7 +45,7 @@ class Projects extends React.Component {
                 cardSrc={vetmedSchedule}
                 cardTitle="VetMed Schedule"
                 cardText="Scheduling system for the College of VetMed @ University of Illinois."
-                cardLinkText="Try Demo"
+                cardLinkText="Learn More"
               />
 
               <Card
@@ -53,7 +53,7 @@ class Projects extends React.Component {
                 cardSrc={vetmedMulti}
                 cardTitle="VetMed multisite"
                 cardText="WordPress multisite containing dozens of websites for VetMed @ Illinois."
-                cardLinkText="Coming soon"
+                cardLinkText="Learn More"
               />
 
               <Card
@@ -61,7 +61,7 @@ class Projects extends React.Component {
                 cardSrc={wordpress}
                 cardTitle="WordPress sites"
                 cardText="Several WordPress sites designed and hosted for clients."
-                cardLinkText="Coming soon"
+                cardLinkText="Learn More"
               />
 
             </div>
@@ -92,18 +92,18 @@ class Projects extends React.Component {
             <div className={s.cardContainer}>
 
               <Card
-                cardLink="#."
+                cardLink="/projects/my-site"
                 cardSrc={mySite}
                 cardTitle="This website"
                 cardText="My online portfolio, an isomorphic web app experiment."
-                cardLinkText="Coming soon"
+                cardLinkText="Learn More"
               />
 
               <Card
                 cardLink="#."
                 cardSrc={acvs}
                 cardTitle="ACVS"
-                cardText="American College of Veterinary Surgeons' historic profiles for diplomates."
+                cardText="American College of Veterinary Surgeons' diplomate profiles."
                 cardLinkText="Coming soon"
               />
 
